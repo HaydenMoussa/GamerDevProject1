@@ -1,5 +1,8 @@
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,6 +30,13 @@ public class GameManager : MonoBehaviour
     {
         score++;
         scoreText.text = "Sharks: " + score;
+    }
+
+    public void ResetGame() 
+    {
+        SceneManager.LoadScene("ScorePage");
+        DataManager.Instance.NewScore(score);
+        score = 0;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
