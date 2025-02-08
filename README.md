@@ -10,6 +10,8 @@ We went for an underwater aesthetics.
 
 One of the joys for me was picking out the sprites, I probably spent more time on that than anything else. -Hayden
 
+I enjoyed making the backgrounf processes for the score system work - niko
+
 Shark Sprite found on itch.io made my Szym from their [spear fishing assests pack.](https://nszym.itch.io/spearfishing-assets-pack)
 
 Background from itch.io made by ansimuz from their [underwater fantasy pixel are collection.](https://ansimuz.itch.io/underwater-fantasy-pixel-art-environment)
@@ -25,3 +27,4 @@ joys and struggles while writing this game
 a paragraph discussing the contributions of each team member to the final game.
 
 For this project I mainly worked on the Shark Enemy mechanics. I created the enemy and the script that controls it as well as the scripts for the car to block the sharks. I implamented the randomness of the shark spawn and the increase in difficulty as the fish survives for longer. I also picked out and implamented the sprites used for the game. -Hayden
+For this project I made the score save functionanlity and the scoreboard. I was in charge of making the particles and audio. I also made thegame manager and movement script for the shield. -niko
